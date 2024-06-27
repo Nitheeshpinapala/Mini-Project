@@ -1,0 +1,122 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+  width: 100%;
+  height: 100%;
+  background:#fff;
+  background-image: url(images/bag13.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.health{
+    text-align: center;
+}
+.health label
+{
+    text-transform: capitalize;
+    color: burlywood;
+    font-size:20px;
+}
+.health input
+{
+  width:400px;
+}
+
+
+
+
+.col-sm-6 .card
+{
+  box-shadow: 10px 10px  10px blanchedalmond;
+  border-radius: 20px; 
+}
+.col-sm-6 .card-body a
+{
+  margin-left: 31%;
+}
+.col-sm-6
+{
+  width: 1000px;
+}
+.card-text
+{
+  font-size: 15px;
+  color: black;
+}
+
+
+
+/*health*/
+.form-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(1, 2, 0, 0.1);
+  background-color: #eaf1e8;
+  opacity: 0.9;
+}
+.form-container h2,h5 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:green;
+}
+.form-container label {
+  font-weight: bold;
+}
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-container input[type="submit"] {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+.form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.form-container .row > div {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/* Card styles  result fhc*/
+
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 20px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
